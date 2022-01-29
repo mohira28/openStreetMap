@@ -1,0 +1,43 @@
+html,
+body,
+#map {
+  height: 900px;
+  margin: 0;
+}
+
+.leaflet-control{
+  border: solid slateblue;
+  background-color: aliceblue;
+  font-size: large;
+  float: left;
+  color: slateblue;
+  font-weight: bold;
+}
+.coordinate2 {
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.coordinate{
+  margin-top: 110px;
+  margin-left: 5px;
+}
+.fullScreen{
+  border: solid slateblue;
+  background-color: aliceblue;
+  font-size: large;
+  float: left;
+  color: slateblue;
+  font-weight: bold;
+}
+/* иконки маршрутов */
+.leaflet-marker-icon{
+  src: 'car.png';
+  background: 'car.png';
+} 
+
+.delete{
+  border-radius: 15px;
+  border-color: red;
+  color: red;
+  background-color: rgb(255, 247, 248);
+}
